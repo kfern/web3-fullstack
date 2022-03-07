@@ -1,5 +1,6 @@
 # web3-fullstack
 
+[![test](https://github.com/kfern/web3-fullstack/actions/workflows/tests.yml/badge.svg)](https://github.com/kfern/web3-fullstack/actions/workflows/tests.yml)
 ## Setting up a Local Blockchain
 
 ```
