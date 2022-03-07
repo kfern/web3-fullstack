@@ -3,9 +3,11 @@
   "private": false,
   "scripts": {
     "bootstrap": "lerna bootstrap --hoist",
-    "test:unit": "lerna run test:unit"
+    "test:unit": "lerna run test:unit",
+    "new:version": "lerna version --conventional-commits --no-push"
   },
   "devDependencies": {
     "lerna": "^4.0.0"
-  }
+  },
+  "version": "0.0.0"
 }
