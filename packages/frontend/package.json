@@ -1,6 +1,6 @@
 {
   "name": "@kfern/web3-frontend",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "private": false,
   "dependencies": {
     "@reduxjs/toolkit": "^1.7.2",
@@ -48,14 +48,14 @@
       "last 1 safari version"
     ]
   },
-	"jest": {
-		"collectCoverageFrom": [
-			"**/src/**",
-			"!**/src/*.ts",
-			"!**/src/index.tsx",
-			"!**/src/**/*.svg",
-			"!**/src/**/types.ts",
-			"!**/node_modules/**"
-		]
-	}  
+  "jest": {
+    "collectCoverageFrom": [
+      "**/src/**",
+      "!**/src/*.ts",
+      "!**/src/index.tsx",
+      "!**/src/**/*.svg",
+      "!**/src/**/types.ts",
+      "!**/node_modules/**"
+    ]
+  }
 }
