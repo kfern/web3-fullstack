@@ -1,0 +1,21 @@
+{
+  "name": "@kfern/web3-backend",
+  "version": "0.1.0",
+  "description": "",
+  "main": "scripts/deploy.js",
+  "scripts": {
+    "test:deploy": "npx hardhat run --network localhost ./scripts/deploy.js",
+    "test:integration": "npx hardhat run --network localhost ./scripts/simple-test.js",
+    "test:unit": "npx hardhat test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.0.5",
+    "@openzeppelin/contracts": "^4.5.0",
+    "chai": "^4.3.6",
+    "ethers": "^5.5.4",
+    "hardhat": "^2.9.0"
+  }
+}
