@@ -1,6 +1,6 @@
 {
   "name": "root",
-  "private": false,
+  "private": true,
   "scripts": {
     "bootstrap": "lerna bootstrap --hoist",
     "test:unit": "lerna run test:unit",
@@ -9,5 +9,6 @@
   "devDependencies": {
     "lerna": "^4.0.0"
   },
+  "workspaces": ["packages/*"],
   "version": "0.0.0"
 }
