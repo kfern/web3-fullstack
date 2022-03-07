@@ -2,7 +2,7 @@
   "name": "root",
   "private": true,
   "scripts": {
-    "bootstrap": "lerna bootstrap --hoist",
+    "bootstrap": "lerna bootstrap",
     "test:unit": "lerna run test:unit",
     "new:version": "lerna version --conventional-commits --no-push"
   },
