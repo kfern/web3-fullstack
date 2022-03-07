@@ -1,0 +1,11 @@
+version: "3.9"
+services:
+  blockchain:
+    container_name: "test-backend"
+    ports:
+      - "8545:8545"
+    build: 
+      context: ./packages/backend
+      dockerfile: Dockerfile
+    image: test-backend:v1.test
+    restart: unless-stopped
